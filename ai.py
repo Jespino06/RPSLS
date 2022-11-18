@@ -1,5 +1,10 @@
-class AI:
-    def __init__(self, ai):
-        self.ai = ai
+from player import Player
+
+class AI(Player):
+    def __init__(self, name, gesture):
+        self.name = name
+        self.gesture = gesture
         pass
 
+
+    

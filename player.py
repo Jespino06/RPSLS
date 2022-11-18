@@ -1,7 +1,7 @@
 class Player:
-    def __init__(self, name, ai) -> None:
+    def __init__(self, name, gesture):
         self.name = name
-        self.ai = ai
+        self.gesture = gesture
         pass
 
  
