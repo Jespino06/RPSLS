@@ -9,5 +9,5 @@ class Game:
         pass
 
     def toss_phase(self):
-        self.choice()
-        
+        Human.choice()
+       
