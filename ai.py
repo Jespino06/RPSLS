@@ -1,5 +1,7 @@
 from player import Player
 
+gesture_list = ['Rock', 'Paper', 'Scissor', 'Spock', 'Lizard']
+
 class AI(Player):
     def __init__(self, name, gesture):
         self.name = name
@@ -7,4 +9,5 @@ class AI(Player):
         pass
 
 
-    
+    def spur_choice():
+        
